@@ -12,7 +12,6 @@ env:
 
 jobs:
   check-version:
-    permissions: write-all
     name: Check latest Aseprite release
     runs-on: ubuntu-latest
     outputs:
