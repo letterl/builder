@@ -12,7 +12,7 @@ env:
 
 jobs:
   check-version:
-    permissions: read-all|write-all
+    permissions: write-all
     name: Check latest Aseprite release
     runs-on: ubuntu-latest
     outputs:
